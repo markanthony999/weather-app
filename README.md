@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 09222021
+
+Start at add bootstrap
+
+## 09232021
+
+Set openWeather Map API KEY somehow.
+cc3bd874c08d0c740f924d656f96a70c
