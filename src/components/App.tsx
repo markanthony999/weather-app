@@ -4,6 +4,7 @@ import {LocationSearch} from "./LocationSearch";
 import {LocationTable} from "./LocationTable";
 import {WeatherLocation} from "../model/Weather";
 import {searchLocation} from "../services/WeatherService";
+import {WeatherSummary} from "./WeatherSummary";
 
 
 const App: FC = () => {
@@ -36,6 +37,7 @@ const App: FC = () => {
       <h1>Weather App</h1>
 
       <LocationSearch onSearch={addLocation}/>
+      <WeatherSummary location={currentLocation}/>
        {
         error 
         ? <div className = {`alert alert-danger`}>{error}</div>
